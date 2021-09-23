@@ -1,5 +1,5 @@
 
-Drop database thegym;
+
 Create database thegym;
 Create Role thegym With Superuser;
 Alter Role thegym With Login;
