@@ -1,4 +1,5 @@
 
+Drop database thegym;
 Create database thegym;
 Create Role thegym With Superuser;
 Alter Role thegym With Login;
@@ -38,7 +39,7 @@ CREATE TABLE latesthrdata_apac
     (id, color, location, event_timestamp, deviceid, username, heartrate, region)
     FOR VALUES IN ('APAC');
 
-
+Insert into hrdata values (4711, "0x00FF00", "48.137154,11.576124", "1632389493615", "my garmin", "me", 120, "EMEA");
 
 
 
